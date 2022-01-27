@@ -1,1 +1,19 @@
 link pada download git: https://git-scm.com/downloads
+
+
+sequencias
+
+clonar repositórios:
+- vá à pasta desejada e clique com o botão direito, abra o git bash
+- no terminal coloque: git clone e o link do repositorio.
+
+
+Alterações/adicionando pastas e arquivos
+- dentro do Explorer altere ou cria algum arquivo (txt) diferente.
+- no terminal verifique no git status a situação do arquivo/pasta (está não comitado e untracked)
+- para o arquivos/pasta ir para a área que permite o COMMIT execute o comando:
+--git add .
+-Após o comando o arquivo/pasta estará pronto para ser COMITADO.
+--git commit -m "indentificção das alterações"
+- depois do arquivo COMITADO precisaremos enviar pro GitHub (remoto)
+--git push origin main
